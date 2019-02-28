@@ -8,6 +8,7 @@ public class Program {
         System.out.println(dif(4.5,3.6));
         System.out.println(abs(-3));
 
+        System.out.println(abs(-4.3));
     }
     public static int sum(int a, int b){
         return a+b;
@@ -30,4 +31,8 @@ public class Program {
     public static int abs (int a){
         return (int)Math.sqrt(a*a);
     }
+    public static double abs(double a){
+        return Math.sqrt(a*a);
+    }
+
 }
