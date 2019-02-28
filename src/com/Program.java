@@ -7,8 +7,8 @@ public class Program {
         System.out.println(dif(5,1));
         System.out.println(dif(4.5,3.6));
         System.out.println(abs(-3));
-
         System.out.println(abs(-4.3));
+        System.out.println("2 - is the positiv number");
     }
     public static int sum(int a, int b){
         return a+b;
